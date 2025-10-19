@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-#define TAM 8 // Tamanho do tabuleiro 8x8
+#define TAM 8 // Definição do tamanho do tabuleiro (8x8 ; 64 casas)
 
-// Função para imprimir o tabuleiro com marcação dos movimentos possíveis
+// Função para imprimir o tabuleiro com marcação dos movimentos
 void imprimirTabuleiro(int tabuleiro[TAM][TAM]) {
     printf("  A B C D E F G H\n");
     for (int i = 0; i < TAM; i++) {
