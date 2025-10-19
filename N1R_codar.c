@@ -6,17 +6,14 @@ float temperatura, umidade;
 unsigned int estoque, estoqueMinimo = 1000;
 
 
-temperatura = 25;
-umidade = 70;
-
 printf("Entre com a Temperatura: \n");
-scanf(float, &temperatura);
+scanf("%f", &temperatura);
 
 printf("Entre com a Umidade: \n");
-scanf(float, &umidade);
+scanf( "%f", &umidade);
 
 printf("Entre com o Estoque: \n");
-scanf(unsigned, &estoque);
+scanf("%u", &estoque);
 
 if ( temperatura > 30 ){
     printf("Temperatura está alta. \n");
