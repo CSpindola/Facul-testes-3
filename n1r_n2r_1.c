@@ -11,6 +11,6 @@ int main() {
         printf ("Número 1 é maior que numero 2.\n");
     }
 
-    printf ("Fora If");
+    
 
 }
